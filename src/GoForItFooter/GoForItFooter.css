@@ -1,0 +1,37 @@
+.GoForItFooter {
+    text-align: left;
+    width: 100%;
+    margin:120px 0 55px 0;
+}
+.goforit {
+
+    font-size: 40px;
+    color: #fe7000;;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: serif,sans-serif;
+    margin-bottom: 49px;
+}
+.goforit span {
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px #fe7000;
+    color: transparent;
+}
+.reseau-sociaux {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    height: 80px;
+    background-color: #fe7000;
+}
+.reseau-sociaux img {
+
+    height: 33px;
+    width: 33px;
+    cursor: pointer;
+}

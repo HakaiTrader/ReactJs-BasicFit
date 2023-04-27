@@ -1,0 +1,110 @@
+@media screen and (min-width: 770px) {
+    
+    .articles {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        column-gap: 20px;
+    }
+    .article1,
+    .article2,
+    .article3 {
+
+        position: relative;
+        flex-direction: column;
+        max-width: 468px;
+        height: 673px;
+    }
+    .articles .article-txt {
+
+        width: 50%;
+        padding: 25px 0 0 25px;
+        position: absolute;
+        bottom: 80px;
+        right: -15px;
+        height: 280px;
+    }
+    .article1 .article-txt {
+
+        width: 50% !important;
+        padding: 25px 0 0 25px;
+        bottom: -10px;
+    }
+    .article-txt span {
+
+        height: 58px ;
+        width: 108px !important;
+        padding: 0 10px;
+        line-height: 1.8;
+    }
+    .article-txt #corpetesprit-1 {
+        
+        display: block;
+    }
+    .article-txt h2{
+
+        margin-top: 20px;
+        font-size: 18.5px;
+        text-transform: uppercase;
+        max-height: 72px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }    
+        
+
+    .article2 .article-txt span,
+    .article3 .article-txt span,
+    .article2 .article-txt p,
+    .article3 .article-txt p {
+        display: flex;
+    }
+
+    .article2 .article-txt span,
+    .article3 .article-txt span {
+        width: 145px;
+    }
+    
+    .article-txt .lien-readmore::after {
+        content: '';
+        position: absolute;
+        width: 72.75px;
+        height: 2px;
+        background-color: #c47413;
+        bottom: -5px;
+        right: 12px;
+        visibility: hidden;
+        transform: scaleX(0);
+        transform-origin: 0% 50%;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    /********* IMAGES *************/
+
+    
+    
+    .article-img img {
+
+        width: 100%;
+        max-width: 468px;
+
+    }
+    .article2 .article-img img {
+
+
+        max-width: 468px;
+        height: 384px;
+        object-fit: cover;
+        object-position: 30% 50%;
+    }
+
+    .article3 .article-img img {
+
+        min-width: 205px;
+        max-width: 468px;
+        height: 384px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 770px) {
+
+    .Information {
+        position: relative;
+        flex-direction: row;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .services-info ul {
+        display: grid;
+        max-width: 500px;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 0;
+    }
+    .services-info{
+        max-width: 500px;
+    }
+    .location {
+        max-width: 370px;
+    }
+    .location ul {
+
+        grid-template-columns: repeat(3, auto);
+    }
+    .grostas {
+
+        width: 321px;
+        position: absolute;
+        right: 60px;
+        bottom: -110px;
+        overflow: visible;
+    }
+    .grostas img:nth-child(2){
+        display: none;
+    }
+}

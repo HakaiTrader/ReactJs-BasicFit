@@ -1,0 +1,11 @@
+@media screen and (min-width: 770px) {
+    .GoForItBand hr {
+        height: 6px;
+        width: 75px;
+        margin: 0;
+    }
+    .GoForItBand span {
+        font-size: 30px;
+        width: 200px;
+    }
+}

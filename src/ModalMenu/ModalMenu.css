@@ -1,0 +1,91 @@
+.ModalMenu {
+
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color:#2D2D2D;
+}
+.ModalMenu.active{
+    position: absolute;
+    display: flex;
+    height: 1500px;
+}
+.ModalMenu .header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: white;
+
+}
+.ModalMenu .header img:first-child{
+
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+}
+.ModalMenu .header img:nth-child(2){
+
+    width: 20px;
+    height: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+/****************Menu Bottom***************************************************************/
+.menu-modal {
+     font-size: 18.5px;
+     font-weight: bold;
+     color: white;
+     text-transform: uppercase;
+     margin-top: 57px;
+}
+.menu-modal li {
+
+    margin-bottom: 17.8px;
+    cursor: pointer;
+    color: white;
+}
+.menu-modal li:hover {
+
+    color:#FE7000;
+    text-shadow: 0px 1px 3px rgb(249, 141, 0);
+}
+.mybasicfit-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mybasicfit-modal a {
+
+    color: white;
+    font-size: 18.5px;
+    font-weight: bold;
+}
+.mybasicfit-modal .subscribe {
+    
+    width: 151px;
+    height: 52px;
+    margin: 30px 100px;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+#langue-modal {
+
+    background-color: #2d2d2d;
+    color: white;
+    width: 143px;
+    font-size: 19.5px;
+    text-align: center;
+    margin: 25px 0;
+    outline: none;
+    border: none;
+}
+#langue-modal option {
+
+    background-color: white;
+    color: black;
+}

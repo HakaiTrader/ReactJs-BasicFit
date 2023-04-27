@@ -1,0 +1,13 @@
+@media screen and (min-width: 770px ){
+    
+    .information-footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        flex-wrap: wrap;
+    }
+    .information-footer ul li {
+        max-width: 240px;
+    }
+}

@@ -1,0 +1,36 @@
+.GoForItBand{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 2000px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.GoForItBand hr{
+
+    height: 3px;
+    width: 50px;
+    background-color:#7adec9;
+    border: none;
+    margin: 0 15px;
+}
+.GoForItBand span {
+    font-size: 20.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 120px;
+}
+.GoForItBand .band {
+    display: flex;
+    align-items: center;
+    animation: band-animation 14s linear infinite;
+}
+@keyframes band-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}

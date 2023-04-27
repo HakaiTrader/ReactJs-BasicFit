@@ -1,0 +1,42 @@
+@media screen and (min-width: 1025px) {
+    .Navbar{
+        height:96px
+    }
+    .navbar-menu {
+
+        display: flex;
+        height: auto;
+    }
+    .monbasicfit h3 {
+        display: block;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .langage {
+
+        display: flex;
+    }
+    .logo-menu {
+
+        display: none;
+    }
+    .navbar-left {
+        margin-left: 20px;
+        align-items: center;
+    }
+    .subscribe-research {
+
+        flex-direction: row;
+    }
+
+    .research.active {
+        width: 360px;
+        border: none;
+        right: -565%;
+    }
+    .logo-research-box.active{
+
+    transform: translateX(-300px);
+    }
+   
+}

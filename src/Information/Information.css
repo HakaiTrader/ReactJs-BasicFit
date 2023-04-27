@@ -1,0 +1,104 @@
+.Information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 15px;
+}
+.Information h2{
+
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: 'poppins',serif,sans-serif;
+}
+.Information h2::after{
+
+    display: block;
+    content: '';
+    margin-top: 1px;
+    width: 15px;
+    height: 2px;
+    background-color: orange;
+}
+.services-info{
+    width: 100%;
+}
+.services-info ul{
+   
+    display: grid;
+    height: 220px;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(5,12%);
+    width: 100%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.services-info ul a {
+
+    font-size: 16.5px;
+    cursor: pointer;
+    color:#2d2d2d;
+}
+.services-info ul a:hover {
+
+    text-decoration: underline;
+}
+/**************/
+.apropos ul{
+
+    display: grid;
+    font-size: 16.5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 35px);
+}
+.apropos a {
+    color: #2d2d2d;
+}
+.apropos a:hover {
+
+    text-decoration: underline;
+}
+/*********/
+.location{
+
+    width: 100%;
+}
+.location ul {
+
+    display: grid;
+    font-size: 16.5px;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(4,35px);
+    width: 100%;
+}
+.location ul a {
+
+    color: #2d2d2d;
+    cursor: pointer;
+    width: auto;
+}
+.location ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*********/
+.grostas {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.grostas img:first-child{
+
+    position: relative;
+    width: 321px;
+    height: 481px;
+    transform: translateX(60px);
+}
+.grostas img:nth-child(2){
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: 10000;
+}

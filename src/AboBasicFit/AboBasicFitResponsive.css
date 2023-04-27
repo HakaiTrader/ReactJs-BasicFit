@@ -1,0 +1,44 @@
+@media screen and (min-width: 770px) {
+    
+    .abo-title h1{
+        max-width: 50%;
+    }
+    .AboBasicFit p:nth-child(2){
+
+        max-width: 50%;
+    }
+
+}
+@media screen and (min-width: 1025px) {
+    
+    .four-abo{
+
+        display: flex;
+    }
+    .four-abo img{
+
+        width: 294px;
+        height: 452px;
+    }
+    #img-offer3{
+        width: 250px;
+        height: 390px;
+        margin-top: 50px;
+    }
+    .offer1:hover,
+    .offer2:hover,
+    .offer3:hover {
+        transition: all 0.6s ease-in-out;
+        transform: translateY(-50px);
+    }
+    .img-offer {
+
+        height: 480px;
+        
+    }
+    .menu-offer {
+
+        padding: 30px 0 30px 40px;
+        transform: translateY(-100px);
+    }
+}

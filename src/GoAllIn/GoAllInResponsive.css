@@ -1,0 +1,26 @@
+@media screen and (min-width: 770px) {
+    .GoAllIn .subscribe-allin {
+        width: 223px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .GoAllIn {
+        flex-direction: row;
+    }
+    .GoAllIn >* {
+        flex: 1;
+    }
+    .goallin-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .GoAllIn img {
+        transform: translateY(0);
+        margin: 0;
+    }
+    .GoAllIn .subscribe-allin {
+        width: 223px;
+    }
+
+}

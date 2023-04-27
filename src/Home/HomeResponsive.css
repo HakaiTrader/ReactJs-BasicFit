@@ -1,0 +1,81 @@
+@media screen and (min-width: 770px) {
+    .home-picture {
+        align-self: center;
+    }
+
+    .home-picture img {
+        width: 737px;
+        height: 800px;
+        object-fit: contain;
+        margin-top: -20px;
+    }
+
+    .research-bar {
+        align-items: flex-start;
+        width: 310px;
+    }
+
+    .research-bar .club-research {
+
+        width: 310px;
+    }
+
+    .img-research-content {
+        left: 280px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .Home {
+        display: flex;
+        height: 600px;
+    }
+
+    .home-left {
+
+        font-family: serif;
+        font-size: 50px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .home-left h1 {
+        line-height: 0.95;
+        width: 500px;
+        margin-bottom: 50px;
+    }
+
+    .home-left p {
+
+        -webkit-text-stroke: 0;
+        color: white;
+        font-size: 22px;
+    }
+
+    .home-right {
+        position: absolute;
+        right: 0;
+        width: 500px;
+
+    }
+
+    .home-picture,
+    .home-picture img {
+        width: 500px;
+        margin-top: 30px;
+    }
+
+
+    .sac-offert {
+
+        height: auto;
+        font-size: 15px;
+        transform: translate(-16px,20px);
+        z-index: 100;
+        padding: 20px 58px 24px 30px;
+    }
+
+}
