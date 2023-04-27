@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ReactJs-BasicFit/static/css/main.0b5fd4e7.css",
+    "main.js": "/ReactJs-BasicFit/static/js/main.38e2ba9a.js",
+    "static/media/img-offre-2.png": "/ReactJs-BasicFit/static/media/img-offre-2.6cce29de013f11b35c75.png",
+    "static/media/Espagne.svg": "/ReactJs-BasicFit/static/media/Espagne.5399741c6f0109f01162f09fd448e079.svg",
+    "static/media/picture-home.png": "/ReactJs-BasicFit/static/media/picture-home.09896b3569ccc69fb479.png",
+    "static/media/img-offre-3.png": "/ReactJs-BasicFit/static/media/img-offre-3.19521ad729e76048f6e7.png",
+    "static/media/fitnessgirl.png": "/ReactJs-BasicFit/static/media/fitnessgirl.d61088cde69de5443de5.png",
+    "static/media/corp2.jpg": "/ReactJs-BasicFit/static/media/corp2.1c2084ff8d7764b300c4.jpg",
+    "static/media/corp3.jpg": "/ReactJs-BasicFit/static/media/corp3.48e6816e14276ee02f38.jpg",
+    "static/media/corp1.jpg": "/ReactJs-BasicFit/static/media/corp1.6ffd8cd9b51d78ad64e2.jpg",
+    "static/media/img-offre-1.png": "/ReactJs-BasicFit/static/media/img-offre-1.2ecc0c57eb5d3ce882df.png",
+    "static/media/LOGO.svg": "/ReactJs-BasicFit/static/media/LOGO.5412bef1ec5ac7e483d592e9de6b35fe.svg",
+    "static/media/avantage-GXR.svg": "/ReactJs-BasicFit/static/media/avantage-GXR.a25d667abd5d47e2a60d10b3d524fd6c.svg",
+    "static/media/avantage-NewEquipment.svg": "/ReactJs-BasicFit/static/media/avantage-NewEquipment.fe89aa843604b3ef837891df9ef368b5.svg",
+    "static/media/avantage-7Zones.svg": "/ReactJs-BasicFit/static/media/avantage-7Zones.a83d7a0f13bf0eb16d38eaf8def48f1f.svg",
+    "static/media/social-twitter.svg": "/ReactJs-BasicFit/static/media/social-twitter.a731eb2b5d406b647b514020f751f629.svg",
+    "static/media/Sport.svg": "/ReactJs-BasicFit/static/media/Sport.9d336825d1d9cdd8c65523453ba4bf4c.svg",
+    "index.html": "/ReactJs-BasicFit/index.html",
+    "static/media/instagram.svg": "/ReactJs-BasicFit/static/media/instagram.15dedf033f4d7c846a805d473a9faecd.svg",
+    "static/media/facebook.svg": "/ReactJs-BasicFit/static/media/facebook.f040ec540c99045073b60ed5ae7eefaa.svg",
+    "static/media/Nederland.svg": "/ReactJs-BasicFit/static/media/Nederland.90d37ba2f87b97413d721c8cc8116ef5.svg",
+    "static/media/belgique.svg": "/ReactJs-BasicFit/static/media/belgique.ae873fc082ea79d67af9bb1979f5c29c.svg",
+    "static/media/Logo-research.svg": "/ReactJs-BasicFit/static/media/Logo-research.0d0d38ad1bbb39e297383e48b522d4e3.svg",
+    "static/media/Logo-research-hover.svg": "/ReactJs-BasicFit/static/media/Logo-research-hover.eb4a311e781a7c057776106569c98804.svg",
+    "static/media/France.svg": "/ReactJs-BasicFit/static/media/France.da032352a4efd19ac25aa1cb0c2da3cd.svg",
+    "static/media/Allemagne.svg": "/ReactJs-BasicFit/static/media/Allemagne.888f6bdce53030a6e80f35b799e05b3c.svg",
+    "main.0b5fd4e7.css.map": "/ReactJs-BasicFit/static/css/main.0b5fd4e7.css.map",
+    "main.38e2ba9a.js.map": "/ReactJs-BasicFit/static/js/main.38e2ba9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5fd4e7.css",
+    "static/js/main.38e2ba9a.js"
+  ]
+}
